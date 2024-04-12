@@ -7,7 +7,7 @@ launch:
     param:
     -
         name: "port"
-        value: "/dev/ttyCH341USB0"
+        value: "/dev/HotRC"
     -
         name: "rxMinValue"
         value: 192
@@ -41,16 +41,16 @@ launch:
         value: 0 # Aileron on a standard plane RC controller
     -
         name: "minSpeed"
-        value: -5.0
+        value: -1.0
     -
         name: "maxSpeed"
-        value: 5.0
+        value: 1.0
     -
         name: "minTurn"
-        value: -5.0
+        value: -1.0
     -
         name: "maxTurn"
-        value: 5.0
+        value: 1.0
 
     remap:
     -
